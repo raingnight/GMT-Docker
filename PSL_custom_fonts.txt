@@ -1,0 +1,8 @@
+STSong-Light--UniGB-UTF8-H  0.700    1
+STFangsong-Light--UniGB-UTF8-H  0.700    1
+STHeiti-Regular--UniGB-UTF8-H   0.700   1
+STKaiti-Regular--UniGB-UTF8-H   0.700   1
+STSong-Light--UniGB-UTF8-V  0.700    1
+STFangsong-Light--UniGB-UTF8-V  0.700    1
+STHeiti-Regular--UniGB-UTF8-V   0.700   1
+STKaiti-Regular--UniGB-UTF8-V   0.700   1
