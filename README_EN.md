@@ -61,4 +61,4 @@ The default work path of  this image is:
 
 ### 使用截图
 
-![GMT使用截图](D:\user_data\Github\GMT-Docker\gmt_use.jpg)
+![GMT使用截图](gmt_use.jpg)
