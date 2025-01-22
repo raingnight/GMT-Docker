@@ -9,9 +9,9 @@
 
 **已构建的镜像:** 
 
-​	[GMT6.5.0_CN_x86_64](https://hub.docker.com/r/fangmr999/gmt_cn_amd64:6.5.0)	
+​	[GMT6.5.0_CN_x86_64](https://hub.docker.com/r/fangmr999/gmt_cn_amd64)	
 
-​	[GMT6.5.0_CN_arm64](https://hub.docker.com/r/fangmr999/gmt_cn_arm64:6.5.0)
+​	[GMT6.5.0_CN_arm64](https://hub.docker.com/r/fangmr999/gmt_cn_arm64)
 
 **安装了JDK21的版本：**	
 
