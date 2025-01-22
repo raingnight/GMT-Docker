@@ -9,13 +9,7 @@
 
 **已构建的镜像:** 
 
-​	[GMT6.5.0_CN_x86_64](https://hub.docker.com/r/fangmr999/gmt_cn_amd64)	
-
-​	[GMT6.5.0_CN_arm64](https://hub.docker.com/r/fangmr999/gmt_cn_arm64)
-
-**安装了JDK21的版本：**	
-
-​	[GMT6.5.0_CN_JDK21 x86_64](https://hub.docker.com/r/fangmr999/jdk21_gmt_cn_6.5.0)
+​	[gmt_cn](https://hub.docker.com/r/fangmr999/gmt_cn)	
 
 如果你需要更改或者新增什么东西，可以修改`Dockerfile`文件，然后自己重新构建镜像
 
