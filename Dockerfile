@@ -23,33 +23,11 @@ RUN cd /root/gmt/build/ && cmake GSHHG_ROOT=$GSHHG_ROOT DCW_ROOT=$DCW_ROOT DCW_V
 
 RUN sed -i '/disable ghostscript format types/,+6d' /etc/ImageMagick-6/policy.xml
 
-RUN cd /root/ && rm -rf dcw-gmt-2.1.1 dcw-gmt-2.1.1.tar.gz gshhg-gmt-2.3.7 gshhg-gmt-2.3.7.tar.gz
-
-# GMT中文支持
-RUN mkdir -p /root/.gmt/winfonts
-ADD SIMFANG.TTF /root/.gmt/winfonts/
-ADD SIMHEI.TTF /root/.gmt/winfonts/
-ADD SIMKAI.TTF /root/.gmt/winfonts/
-ADD SIMSUN.TTC /root/.gmt/winfonts/
-ADD cidfmap  /root/.gmt/
-ADD PSL_custom_fonts.txt /root/.gmt/
-
-# JDK17
-RUN apt-get install openjdk-21-jdk -y
-
-# 设置时区
-ENV TZ="Asia/Shanghai"
-
 RUN mkdir -p /usr/src/myapp
 
 ARG HOME=/usr/src/myapp
 
-# 设置环境变量，默认值为 java.jar
-ENV JAR_NAME="java.jar"
-
 # 设置工作路径
 WORKDIR ${HOME}
 
-# 根据环境变量指定的 jar 包的名称启动容器
-#CMD ["/bin/bash"]
-ENTRYPOINT java -Djava.security.egd=file:/dev/./urandom -jar ${JAR_NAME}
+CMD ["/bin/bash"]
